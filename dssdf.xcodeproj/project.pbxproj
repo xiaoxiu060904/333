@@ -15,6 +15,7 @@
 		15E445E320EA63E9004B6DBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E445E220EA63E9004B6DBE /* main.m */; };
 		15E445ED20EA63E9004B6DBE /* dssdfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E445EC20EA63E9004B6DBE /* dssdfTests.m */; };
 		15E445F820EA63E9004B6DBE /* dssdfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E445F720EA63E9004B6DBE /* dssdfUITests.m */; };
+		15E4460720EA65CB004B6DBE /* sddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E4460620EA65CB004B6DBE /* sddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		15E445F320EA63E9004B6DBE /* dssdfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dssdfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E445F720EA63E9004B6DBE /* dssdfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dssdfUITests.m; sourceTree = "<group>"; };
 		15E445F920EA63E9004B6DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E4460520EA65CB004B6DBE /* sddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sddViewController.h; sourceTree = "<group>"; };
+		15E4460620EA65CB004B6DBE /* sddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				15E445D420EA63E9004B6DBE /* AppDelegate.m */,
 				15E445D620EA63E9004B6DBE /* ViewController.h */,
 				15E445D720EA63E9004B6DBE /* ViewController.m */,
+				15E4460520EA65CB004B6DBE /* sddViewController.h */,
+				15E4460620EA65CB004B6DBE /* sddViewController.m */,
 				15E445D920EA63E9004B6DBE /* Main.storyboard */,
 				15E445DC20EA63E9004B6DBE /* Assets.xcassets */,
 				15E445DE20EA63E9004B6DBE /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E4460720EA65CB004B6DBE /* sddViewController.m in Sources */,
 				15E445D820EA63E9004B6DBE /* ViewController.m in Sources */,
 				15E445E320EA63E9004B6DBE /* main.m in Sources */,
 				15E445D520EA63E9004B6DBE /* AppDelegate.m in Sources */,
